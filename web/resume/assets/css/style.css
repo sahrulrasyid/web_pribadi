@@ -1,0 +1,179 @@
+html,
+body {
+  font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
+  background-image: url("../../img/main.gif");
+}
+
+a {
+  color: #222;
+}
+
+.bg-color {
+  background-color: #fff;
+  box-shadow: #ddd 1px 5px 15px;
+}
+
+.left-bar {
+  background-color: #dfdfdf;
+  padding: 10px;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.box {
+  margin-top: 40px;
+}
+
+.right-bar {
+  background-color: #fff;
+  border-top: 5px solid #22c0e8;
+  border-bottom: 5px solid #22c0e8;
+}
+
+/* Utility */
+.box-top {
+  position: relative;
+  padding: 0px 0px 20px;
+}
+
+.page-header {
+  color: #fff;
+  border-bottom: none;
+  padding-left: 15px;
+  padding-bottom: 1px;
+  border-right: 30px solid transparent;
+  border-top: 35px solid #22c0e8;
+  border-radius: 1px;
+  height: 0px;
+}
+
+.title {
+  position: relative;
+  width: 250px;
+  top: -37px;
+  text-transform: uppercase;
+}
+
+.caption {
+  font-size: 20px;
+}
+
+.contact {
+  position: relative;
+  top: 17px;
+}
+
+.link-sosmed {
+  padding: 10px;
+  position: relative;
+  top: 8px;
+}
+
+.icon {
+  height: 30px;
+  margin-top: 15px;
+}
+
+.logo-portofolio {
+  height: 60px;
+}
+
+.level {
+  font-size: 10px;
+  border: 1px solid #888;
+  padding: 3px;
+}
+
+.footer {
+  padding: 17px;
+}
+
+/* Timeline */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  .border-left {
+    border-left: 2px solid #d4d9df;
+  }
+
+  .left-bar {
+    height: 1640px;
+  }
+
+  .page-header {
+    width: 50%;
+  }
+
+  .padding-content {
+    padding: 55px;
+  }
+
+  .padding-box {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .border-left {
+    border-left: none;
+    margin-bottom: 20px;
+  }
+
+  .padding-content {
+    padding: 15px;
+  }
+
+  .left-bar {
+    margin-bottom: 40px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 35px;
+  }
+
+  .box-top {
+    text-align: center;
+  }
+
+  .contact {
+    float: none !important;
+  }
+}

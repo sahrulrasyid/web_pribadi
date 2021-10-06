@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background:#fff;
+	background-attachment:fixed;
+	font-family: Arial;
+}
+
+#title{
+	background: #1a2029;
+	width: 200px;
+	color: #b4bcc8;
+	font-size:21px;
+	padding: 13px 0px 13px 0px;
+}
+
+.header{
+	background: #2b3643;
+	height: 50px;
+	width: 100%;
+}
+
+#submit{
+	height:50px;
+	width:150px;
+}
+
+#toggle{
+	float:left;
+	padding: 8px;
+}
+
+#author{
+	padding:15px;
+	background: #1a2029;
+	width: 150px;
+	height: 50px;
+	color:#fff;
+	float: right;
+	text-align:center;
+}
